@@ -1,0 +1,61 @@
+:root {
+    --panel-bg-color: white;
+    --container-bg-color: black;
+    --text-color: black;
+    --text-icons: gray;
+    --text-btn: white;
+}
+
+:root[theme='dark'] {
+    --panel-bg-color: gray;
+    --container-bg-color: white;
+    --text-color: white;
+    --text-icons: black;
+    --text-btn: black;
+
+}
+
+nav {
+    background-color: var(--panel-bg-color);
+}
+
+h6 {
+    color: var(--text-icons);
+}
+
+.material-icons {
+    font-size: 50px;
+    color: var(--text-icons);
+}
+
+.footer {
+    background-color: var(--panel-bg-color);
+}
+
+.set {
+    margin-right: 30px;
+}
+
+.sha {
+    margin-right: 30px;
+}
+
+.btn {
+    background-color: var(--container-bg-color);
+    color: var(--text-btn);
+}
+
+input[type='button'] {
+    background-color: var(--panel-bg-color);
+    color: var(--text-color);
+}
+
+html[theme='dark'] {
+    background-color: gray;
+    color: white;
+}
+
+.sidenav {
+    background-color: var(--panel-bg-color);
+    color: var(--text-color);
+}
